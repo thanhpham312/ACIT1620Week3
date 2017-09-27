@@ -1,0 +1,62 @@
+#controlPanel {
+    position: fixed;
+    left: -160px;
+    top: 30px;
+    width: 150px;
+    background-color: rgba(2, 168, 243, 0.9);
+    transition: left 1s;
+    padding: 10px 5px;
+    border-radius: 10px;
+}
+
+#bgThumbBox {
+    width: 100%;
+    text-align: center;
+}
+
+.bgThumb {
+    width: 80%;
+    height: auto;
+    margin: 7px auto;
+    border: 5px solid rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+}
+
+#open {
+    width: auto;
+    height: 50px;
+    position: absolute;
+    right: -70px;
+    top: 0px;
+    background-color: rgba(2, 168, 243, 0.9);
+    border-radius: 50%;
+    
+}
+
+#openImg {
+    height: 100%;
+}
+
+#open2 {
+    width: auto;
+    height: 50px;
+    position: absolute;
+    right: -70px;
+    bottom: 0px;
+    background-color: rgba(2, 168, 243, 0.9);
+    border-radius: 50%;
+}
+
+#openImg2 {
+    height: 100%;
+}
+
+#backgroundImage {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(img/bg1.png);
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
